@@ -23,7 +23,7 @@ const getNavlinks = (locationUrl) => routes.map((t, idx) => {
 
 const Header = ({ locationUrl }) => (
     <nav className="header navbar navbar-expand-lg">
-        <a className="navbar-brand" href="/"><img className="avatar-icon" src={avatar} alt="_" /> cassiius</a>
+        <a className="navbar-brand" href="/"><img className="avatar-icon" src={avatar} alt="_" /></a>
 
         <div id="navbarSupportedContent" className="collapse navbar-collapse">
             <ul className="navbar-nav mr-auto">
